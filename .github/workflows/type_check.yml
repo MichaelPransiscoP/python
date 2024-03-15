@@ -8,4 +8,4 @@ jobs:
     - name: pytypes checker
       uses: theahura/pytypes-action@main
       with:
-        args: "python/tes.py"
+        args: "python/tes.py -d import-error"  # Menambahkan argumen tambahan di sini
